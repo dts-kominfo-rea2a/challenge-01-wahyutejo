@@ -23,25 +23,25 @@ const firstUserEducation = [];
 firstUserEducation.push(firstEducation1, firstEducation2, firstEducation3);
 
 // Tabel warna
-let firstFavoriteColor = new Set();
-firstFavoriteColor.add("Yellow");
-firstFavoriteColor.add("Pink");
-firstFavoriteColor.add("White");
-firstFavoriteColor.add("Purple");
+let warna1 = new Set("Yellow");
+let warna2 = new Set("Pink");
+let warna3 = new Set("White");
+let warna4 = new Set("Purple");
+
+let firstFavoriteColor = [];
+firstFavoriteColor.push(warna1, warna2, warna3, warna4);
 
 // Tabel favoriteRestaurant
-let firstFavoriteRestautant = new Set();
-firstFavoriteRestautant.add("Bento");
-firstFavoriteRestautant.add("Sushi");
-firstFavoriteRestautant.add("Pancake");
-firstFavoriteRestautant.add("Eggy");
-firstFavoriteRestautant.add("Tempura");
-firstFavoriteRestautant.add("Bento");
-firstFavoriteRestautant.add("Eggy");
-firstFavoriteRestautant.add("Padang");
-firstFavoriteRestautant.add("Tteok");
-firstFavoriteRestautant.add("Sushi");
-firstFavoriteRestautant.add("Sushi");
+let firstResto1 = new Set("Bento");
+let firstResto2 = new Set("Sushi");
+let firstResto3 = new Set("Pancake");
+let firstResto4 = new Set("Eggy");
+let firstResto5 = new Set("Tempura");
+let firstResto6 = new Set("Padang");
+let firstResto7 = new Set("Tteok");
+
+let firstResto = [];
+firstResto.push(firstResto1, firstResto2, firstResto3, firstResto4, firstResto5, firstResto6, firstResto7);
 
 // Tabel firstUser
 firstUser.name = "Monica";
@@ -51,7 +51,7 @@ firstUser.email = "monica@dingdong.com";
 firstUser.favoriteColor = firstFavoriteColor;
 firstUser.isHavePet = "Yes";
 firstUser.education = firstUserEducation;
-firstUser.favoriteRestaurant = firstFavoriteRestautant;
+firstUser.favoriteRestaurant = firstResto;
 
 // Pendidikan secondUser
 const secondEducation1 = {};
@@ -77,22 +77,25 @@ const secondUserEducation = [];
 secondUserEducation.push(secondEducation1, secondEducation2, secondEducation3, secondEducation4);
 
 // Kolom favoriteColor
-let secondFavoriteColor = new Set();
-secondFavoriteColor.add("Blue");
-secondFavoriteColor.add("Black");
-secondFavoriteColor.add("Gray");
+let secondWarna1 = new Set("Blue");
+let secondWarna2 = new Set("Black");
+let secondWarna3 = new Set("Gray");
+
+let secondFavoriteColor = [];
+secondFavoriteColor.push(secondWarna1, secondWarna2, secondWarna3);
 
 // Kolom favoriteRestaurant
-let secondFavoriterestaurant = new Set();
-secondFavoriterestaurant.add("Tempura");
-secondFavoriterestaurant.add("Bento");
-secondFavoriterestaurant.add("Sushi");
-secondFavoriterestaurant.add("Pancake");
-secondFavoriterestaurant.add("Padang");
-secondFavoriterestaurant.add("Katsu");
-secondFavoriterestaurant.add("Geprek");
-secondFavoriterestaurant.add("Pancake");
-secondFavoriterestaurant.add("Eggy");
+let secondResto1 = new Set("Tempura");
+let secondResto2 = new Set("Bento");
+let secondResto3 = new Set("Sushi");
+let secondResto4 = new Set("Pancake");
+let secondResto5 = new Set("Padang");
+let secondResto6 = new Set("Katsu");
+let secondResto7 = new Set("Geprek");
+let secondResto8 = new Set("Eggy");
+
+let secondResto = [];
+secondResto.push(secondResto1, secondResto2, secondResto3, secondResto4, secondResto5, secondResto6, secondResto7, secondResto8);
 
 // Kolom secondUser
 secondUser.name = "Wendy";
@@ -102,7 +105,7 @@ secondUser.email = "wendy@dingdong.com";
 secondUser.favoriteColor = secondFavoriteColor;
 secondUser.isHavePet = "No";
 secondUser.education = secondUserEducation;
-secondUser.favoriteRestaurant = secondFavoriterestaurant;
+secondUser.favoriteRestaurant = secondResto;
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
